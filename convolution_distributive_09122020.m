@@ -1,22 +1,16 @@
 % Program to check distributive property
 % x(n): [ 1 2 3 4 5 6 7 8 9 10], starting position: -2
 % y(n): [ 10 9 8 7 6 5 4 3 2 1], starting position: 5
-% z(n): [ 8 4 8 4 8 4 8 4], starting position: 3
+% z(n): [ 8 4 8 4 8 4 8 4], starting position: 1
 % a*(b+c) = a*b + a*c
-% xn=input('enter sequence of x(n) :');
-% xs=input('enter starting point of x(n) :');
-xn=[ 1 2 3 4 5 6 7 8 9 10];
-xs=-2;
+xn=input('enter sequence of x(n) :');
+xs=input('enter starting point of x(n) :');
 xe=(xs + length(xn)-1);
-% yn=input('enter sequence of y(n) :');
-% ys=input('enter starting point of y(n) :');
-yn=[ 10 9 8 7 6 5 4 3 2 1];
-ys=5;
+yn=input('enter sequence of y(n) :');
+ys=input('enter starting point of y(n) :');
 ye=(ys + length(yn)-1);
-% zn=input('enter sequence of z(n) :');
-% zs=input('enter starting point of z(n) :');
-zn=[ 8 4 8 4 8 4 8 4];
-zs=3;
+zn=input('enter sequence of z(n) :');
+zs=input('enter starting point of z(n) :');
 ze=(zs + length(zn)-1);
 s=min(xs, ys);
 s=min(s, zs);
