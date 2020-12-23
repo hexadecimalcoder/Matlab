@@ -1,0 +1,33 @@
+syms n w z;
+r=input('Enter value of r');
+a=5.^n;
+b=n.*(4.^n);
+c=cos(w*n);
+d=sin(w*n);
+e=r.^n*(cos(w*n));
+f=r.^n*(sin(w*n));
+az=ztrans(a);
+bz=ztrans(b);
+cz=ztrans(c);
+dz=ztrans(d);
+ez=ztrans(e);
+fz=ztrans(f);
+pretty(az)
+pretty(bz)
+pretty(cz)
+pretty(dz)
+pretty(ez)
+pretty(fz)
+fprintf("inverse\n");
+aiz=iztrans(az);
+biz=iztrans(bz);
+ciz=iztrans(cz);
+diz=iztrans(dz);
+eiz=iztrans(ez);
+fiz=iztrans(fz);
+pretty(simplify(aiz))
+pretty(simplify(biz))
+pretty(simplify(ciz))
+pretty(simplify(diz))
+pretty(simplify(eiz))
+pretty(simplify(fiz))
