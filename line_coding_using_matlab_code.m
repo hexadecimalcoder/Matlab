@@ -1,6 +1,6 @@
 % a = [ 1 0 0 -1 2 -4 1 1 0 1 0 1 0 1 0 1 ];
 % stairs([a,a(end)]);
-l=30;
+l=30;%length of random data
 x=zeros(2*l);
 clk=zeros(2*l);
 % Unipolar NRZ
