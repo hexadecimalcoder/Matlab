@@ -28,7 +28,7 @@ ylabel('y(n)=x(n)*h(n)');
 y2n=(conv(hn,xn))
 y2s=(xs+hs);
 y2e=(xe+he);
-n2y=(ys:ye);
+n2y=(y2s:y2e);
 subplot(4,1,4);
 stem(n2y,y2n);
 title('Y2(n): Convolution Output');

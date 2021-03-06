@@ -37,7 +37,7 @@ y2e=(xe+he);
 n2y=(ys:ye);
 subplot(4,1,4);
 stem(n2y,y2n);
-title('Y2(n): Convolution Output');
+title('Y2(n): Commutative Convolution Output');
 xlabel('n');
 ylabel('y(n)=h(n)*x(n)');
 if(yn == y2n)
